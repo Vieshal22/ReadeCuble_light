@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI College Predictor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="logo_white-1.png" alt="logo" width="70px" />
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#predictor">College Predictor</a></li>
+          <li><a href="#contact">Reach Us</a></li>
+        </ul>
+        <img src="#" alt="profile" />
+      </nav>
+    </header>
+
+    <section id="homepage">
+      <div class="content">
+        <h1>Find the Best Study Material</h1>
+        <p>Search through thousands of resources for your academic needs.</p>
+        <div class="search-box">
+          <input
+            type="text"
+            id="search"
+            placeholder="Search for study material..."
+          />
+          <button>Search</button>
+        </div>
+        <div class="image-section">
+          <img src="study-material.jpg" alt="Study Materials" />
+        </div>
+      </div>
+    </section>
+
+    <section id="predictor">
+      <h2>College Predictor</h2>
+      <div class="predictor-container">
+        <!-- <div class="image-section">
+          <img src="resource/College_image.jpeg" alt="College Predictor" />
+        </div> -->
+        <div class="form-section">
+          <h3>Enter Your Details</h3>
+          <form id="predictor-form">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your name"
+              required
+            />
+
+            <label for="score">Your Score:</label>
+            <input
+              type="number"
+              id="score"
+              placeholder="Enter your score"
+              required
+            />
+
+            <label for="preference">Preferred Course:</label>
+            <select id="preference">
+              <option value="engineering">Engineering</option>
+              <option value="medicine">Medicine</option>
+              <option value="business">Business</option>
+              <option value="arts">Arts</option>
+            </select>
+
+            <button type="submit">Predict College</button>
+          </form>
+          <p id="result"></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Reach Us</h2>
+      <div class="reach-container">
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h3>Get in Touch</h3>
+          <form id="contact-form">
+            <label for="name">Your Name:</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your name"
+              required
+            />
+
+            <label for="email">Your Email:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+
+            <label for="message">Your Message:</label>
+            <textarea
+              id="message"
+              rows="4"
+              placeholder="Enter your message"
+              required
+            ></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p><strong>Email:</strong> contact@ReadEcuble.com</p>
+          <p><strong>Phone:</strong> +123 456 7890</p>
+          <p><strong>Address:</strong> 123,Sejbahar, Raipur City</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="logo">
+          <img src="logo.png" alt="AI Predictor Logo" />
+        </div>
+        <div class="social-links">
+          <a href="#" target="_blank"
+            ><img src="facebook.png" alt="Facebook"
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="twitter.png" alt="Twitter"
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="instagram.png" alt="Instagram"
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="linkedin.png" alt="LinkedIn"
+          /></a>
+        </div>
+        <p>© 2025 AI College Predictor. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
